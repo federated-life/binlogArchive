@@ -578,12 +578,12 @@
 	use Moose::Util::TypeConstraints;
 
 	my %credentials = (
-		'user' => 'usea',
-		'pass' => 'cunt',
+		'user' => 'user',
+		'pass' => 'password',
 		'name' => 'mysql',
-		'host' => '172.17.56.41',
+		'host' => '1.2.3.4',
 		'port' => '3306',
-		'file_path' => '/home/aguajardo/binloglog.txt',
+		'file_path' => '/home/user/binloglog.txt',
 	);
 	
 	
